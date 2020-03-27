@@ -18,7 +18,7 @@
 			href="css/mobile.css"
 		/>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-		<title>NewsGrid | About</title>
+		<title>NewsGrid | Latest News</title>
 	</head>
 	<body>
 		<nav id="main-nav">
@@ -40,19 +40,37 @@
 				</div>
 				<ul>
 					<li><a href="index.html">Home</a></li>
-					<li><a class="current" href="about.html">About</a></li>
+					<li><a href="about.html">About</a></li>
 				</ul>
 			</div>
 		</nav>
-		<section id="about">
+		<section id="article">
       <div class="container">
         <div class="page-container">
           <article class="card">
-            <h1 class="l-heading">About Our Organization</h1>
+            <img src="./img/articles/ent1.jpg" alt="">
+            <h1 class="l-heading">Lorem ipsum dolor sit amet.</h1>
+            <div class="meta">
+              <small>
+                <i class="fas fa-user"></i> Written By John Doe Jan, 12 2020
+              </small>
+              <div class="category category-ent">Entertainment</div>
+            </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo neque provident architecto modi, ut, maiores fugit exercitationem cumque labore eos sunt magnam qui velit quidem! Qui inventore maiores possimus commodi enim. Voluptatem praesentium ullam laboriosam eligendi tenetur ab consequatur, sit eius sed molestias! Quasi maxime reiciendis, id rem et odio!</p>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis nesciunt commodi doloribus aliquid laudantium praesentium accusantium, aut natus vero similique! Expedita eaque qui quibusdam, itaque maiores beatae adipisci nisi hic, perspiciatis possimus quam vero ut distinctio et nesciunt asperiores facilis ducimus odio sint. Blanditiis qui ducimus, id eveniet ex maiores excepturi. Expedita, vitae dignissimos aperiam libero eaque ipsa, sapiente tenetur asperiores, impedit commodi quae? Voluptates totam eveniet consectetur, unde quos facilis, delectus nostrum nihil quasi dolorem aspernatur debitis nulla iure repudiandae porro laudantium? Commodi dolor, numquam veniam laboriosam nostrum animi! Eius dolorum reprehenderit tempore obcaecati molestiae dolor quidem culpa, hic, harum numquam fugiat doloremque iusto provident. Minus enim ab ipsum id consequuntur nam maiores maxime iusto tempore sequi mollitia corrupti velit ex repellat, amet et harum quidem earum nostrum atque eaque! Voluptatum eveniet totam reprehenderit sed, harum eaque ipsa assumenda, provident explicabo optio ipsam dignissimos numquam maxime pariatur eum quis?</p>
           </article>
-          <aside class="card bg-primary">
+
+          <aside id="categories" class="card">
+            <h2>Categories</h2>
+            <ul class="list">
+              <a href="#"><li><i class="fas fa-chevron-right"> Sports</i></li></a>
+              <a href="#"><li><i class="fas fa-chevron-right"> Entertainment</i></li></a>
+              <a href="#"><li><i class="fas fa-chevron-right"> Technology</i></li></a>
+              <a href="#"><li><i class="fas fa-chevron-right"> Fashion</i></li></a>
+              <a href="#"><li><i class="fas fa-chevron-right"> Shopping</i></li></a>
+            </ul>
+          </aside>
+          <aside class="card bg-secondary">
             <h2>Join Our Club</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, corrupti.</p>
             <a href="#" class="btn btn-dark btn-block">Join Now!</a>
